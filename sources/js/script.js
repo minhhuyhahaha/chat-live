@@ -25,12 +25,10 @@ socket.on('stream', function (chunks) {
 video2.onpause = function(){
 	video2.style = "display: none";
 	video1.style = "";
-	video1.play();
 }
 video1.onpause = function() {
 	video1.style = "display: none";
 	video2.style = "";
-	video2.play();
 }
 
 
